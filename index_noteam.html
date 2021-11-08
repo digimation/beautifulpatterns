@@ -1,0 +1,2695 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="apple-touch-icon" sizes="76x76" href="./assets/img/apple-icon.png">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+    <title>Patrones Hermosos</title>
+    <meta content='width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0, shrink-to-fit=no' name='viewport' />
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="favicon.ico">
+
+    <!--     Fonts and icons     -->
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700,200" rel="stylesheet" />
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/latest/css/font-awesome.min.css" />
+    <!-- CSS Files -->
+    <link href="./assets/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="./assets/css/now-ui-kit.css?v=1.2.0" rel="stylesheet" />
+    <!-- CSS Just for demo purpose, don't include it in your project -->
+    <link href="./assets/css/demo.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
+
+
+    <style>
+    .video-thumbnail {
+      position: relative;
+      margin: 0;
+      padding: 0;  
+    }
+
+    .video-thumbnail:before {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      -webkit-transform: translate(-50%, -50%);
+      content: "\f01d";
+      font-family: FontAwesome;
+      font-size: 100px;
+      color: #fff;
+      opacity: .8;
+      text-shadow: 0px 0px 30px rgba(0, 0, 0, 0.5);
+    }
+
+    .video-thumbnail:hover:before {
+      color: #eee;
+    }
+
+    .card-img-top {
+        width: 100%;
+    }    
+    </style>
+        
+
+</head>
+
+<body class="ecommerce-page">
+
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg bg-white fixed-top navbar-transparent" color-on-scroll="500">
+        <div class="container">
+<!--             <div class="navbar-translate">
+                <a class="navbar-brand" href="#carouselExampleIndicators" rel="tooltip" title="Home" data-placement="bottom">
+                    <img src="./assets/img/logos/mit_02.png">&nbsp;&nbsp;&nbsp;<img src="./assets/img/logos/itesm.png"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;BEAUTIFUL PATTERNS
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div> -->
+            <div class="navbar-translate">
+                <a class="navbar-brand" href="#carouselExampleIndicators" rel="tooltip" data-placement="bottom">
+                    <img src="./assets/img/logos/Patrones-Hermosos-1.png" style="width:50px;height:50px"> &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;PATRONES HERMOSOS
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navigation" aria-controls="navigation-index" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-bar bar1"></span>
+                    <span class="navbar-toggler-bar bar2"></span>
+                    <span class="navbar-toggler-bar bar3"></span>
+                </button>
+            </div>
+            <div class="collapse navbar-collapse" data-nav-image="./assets/img/blurred-image-1.jpg" data-color="orange">
+                <ul class="navbar-nav ml-auto">
+
+<!--                   <li class="nav-item">
+                    <a class="nav-link" href="#designPatterns">
+                      <i class="now-ui-icons education_paper"></i>
+                      <p>Description</p>
+                    </a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#impacto">
+                      <i class="fa fa-lightbulb-o"></i>
+                      <p>Impacto</p>
+                    </a>
+                  </li>
+<!--                   <li class="nav-item">
+                    <a class="nav-link" href="#qué">
+                      <i class="fa fa-info-circle"></i>
+                      <p>¿Qué?</p>
+                    </a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#themes">
+                      <i class="fa fa-slideshare"></i>
+                      <p>Temas</p>
+                    </a>
+                  </li>
+<!--                   <li class="nav-item">
+                    <a class="nav-link" href="#videos">
+                      <i class="now-ui-icons media-1_button-play"></i>
+                      <p>Videos</p>
+                    </a>
+                  </li> -->
+                  <li class="nav-item">
+                    <a class="nav-link" href="#proyectos-finales">
+                      <i class="now-ui-icons design_vector"></i>
+                      <p>Proyectos</p>
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#schedule">
+                      <i class="now-ui-icons ui-1_calendar-60"></i>
+                      <p>Horario</p>
+                    </a>
+                  </li>
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#team">
+                      <i class="now-ui-icons users_single-02"></i>
+                      <p>Equipo</p>
+                    </a>
+                  </li>
+                    
+                  <li class="nav-item">
+                    <a class="nav-link" href="#testimonios">
+                      <i class="now-ui-icons ui-2_chat-round"></i>
+                      <p>Testimonios</p>
+                    </a>
+                  </li>
+                    
+<!--                   <li class="nav-item">
+                    <a class="nav-link" href="https://forum.beautifulpatterns.org" target="_blank">
+                      <i class="now-ui-icons ui-1_send"></i>
+                      <p>Foro</p>
+                    </a>
+                  </li> -->
+
+                  <li class="nav-item">
+                    <a class="nav-link" href="#colaboraciones">
+                      <i class="now-ui-icons business_briefcase-24"></i>
+                      <p>Colaboraciones</p>
+                    </a>
+                  </li>
+
+
+                </ul>
+            </div>
+        </div>
+    </nav>   
+    <!-- End Navbar -->
+
+
+    <div class="wrapper">
+
+        <!-- Start Carousel -->
+        <div id="carouselExampleIndicators" class="carousel slide">
+            <ol class="carousel-indicators">
+                <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="1" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="2" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="3" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="4" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="5" class=""></li>
+                <li data-target="#carouselExampleIndicators" data-slide-to="6" class=""></li>
+            </ol>
+
+            <div class="carousel-inner" role="listbox">
+
+                <div class="carousel-item active">
+                    <div class="page-header header-filter">
+                        <div class="page-header-image" style="background-image: url('assets/img/students/00.jpg');"></div>
+                        <div class="content-center">
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+                                    <h1 class="title">Patrones Hermosos</h1>
+
+
+
+
+                                    <style>
+
+                                        /* Tables
+                                        ================================== */
+                                        .info-table {
+                                          display: flex;
+                                          flex-wrap: wrap;
+                                        }
+                                        .info-table-cell {
+                                          box-sizing: border-box;
+                                          flex-grow: 1;
+                                          width: 100%;
+                                          padding: 0.25em 0.25em;
+                                          overflow: hidden;
+                                          list-style: none;
+                                          border: solid 3px rgba(255, 255, 255, 0.1);
+                                          background: rgba(249,99,50, 0.8);
+
+                                          font-size: 1.5rem;
+                                          font-family: inherit;
+                                          font-weight: 500;
+                                          line-height: 1.2;
+                                          color: inherit;
+                                          margin-top: 0;
+                                          margin-bottom: 0;
+                                          text-align: left;
+                                        }
+
+                                        /* Table column sizing
+                                        ================================== */
+                                        .info-table-column > .info-table-cell {
+                                          width: 50%;
+                                        }
+
+                                        /* formatting */
+                                        .info-strong {
+                                            font-weight: bolder;
+                                        }
+                                        .info-link {
+                                            color: white;
+                                        }
+                                        
+                                    </style>
+                                    
+                                    <h2>Proyecto open-source</h2>
+                                    <h4>Mujeres enseñando a mujeres pensamiento computacional en América Latina</h4>
+
+<!--                                     <a data-fancybox="gallery" href="https://www.youtube.com/embed/ctd6Srk7Yac" class="text-light">
+                                      <h3><i class="fa fa-video-camera" aria-hidden="true"></i> Video</h3>
+                                    </a>    -->
+
+                                    <!--
+                                        <div class="card bg-transparent mp-0" style="width: 35rem;">
+
+                                            <div class="info-table info-table-column">
+
+                                                <div class="info-table-cell info-strong"><i class="fa fa-calendar" aria-hidden="true"></i>NEXT Meeting</div>
+                                                <div class="info-table-cell"> April 5 (7-9pm EST) in 4-149</div>
+
+                                                <div class="info-table-cell info-strong"><i class="fa fa-info-circle" aria-hidden="true"></i> Info:</div>
+                                                <div class="info-table-cell"><a href="https://docs.google.com/presentation/d/1W1v45XFhRAs6MxB_tgGV6dl9Vcjvyashf_ATCGHjplA/edit?usp=sharing" class="text-light"><i class="fa fa-slideshare" aria-hidden="true"></i> slides</a>, <a href="https://youtu.be/jjonlnOEtwI" class="text-light"><i class="fa fa-video-camera" aria-hidden="true"></i> video</a></div>
+
+                                                <div class="info-table-cell info-strong"><i class="fa fa-envelope" aria-hidden="true"></i> Contact:</div>
+                                                <div class="info-table-cell"><a href="mailto:chicas@mit.edu?Subject=Beautiful%20Patterns" class="text-light">chicas@mit.edu</a></div>
+                                                <div class="info-table-cell info-strong"><i class="fa fa-map-marker" aria-hidden="true"></i> 2019 Cities </div>
+                                                <div class="info-table-cell"><a href="https://drive.google.com/open?id=17nnDpsFoshf0qTXg_EX5lSMenm-V9zWA&usp=sharing" class="text-light">view map</a></div>
+
+                                            </div>
+
+                                        </div>
+                                    -->
+
+                                    
+
+
+
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+
+                                    <div class="btn-group">
+                                        <a href="#impacto" class="btn btn-info btn-round btn-sm">Impacto</a>
+                                    </div> 
+<!--                                     <div class="btn-group">
+                                        <a href="#qué" class="btn btn-info btn-round btn-sm">¿De qué se trata Patrones Hermosos?</a>
+                                    </div> -->
+                                    <div class="btn-group">
+                                        <a href="#proyectos-finales" class="btn btn-info btn-round btn-sm">Proyectos Finales</a>
+                                    </div>
+                                    <div class="btn-group">
+                                        <a href="#testimonios" class="btn btn-info btn-round btn-sm">Testimonios</a>
+                                    </div>
+<!--                                     <div class="btn-group">
+                                        <a href="#videos" class="btn btn-info btn-round btn-sm">Videos</a>
+                                    </div>  -->
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+<!--                 <div class="carousel-item">
+                    <div class="page-header header-filter">
+                        <div class="page-header-image" style="background-image: url('assets/img/workshop/video.jpg');"></div>
+                        <div class="content-center text-center">
+
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+                                    <h1 class="title">VIDEOS</h1>
+                                    <h4 class="description text-white">Students activities, listen to the teaching staff</h4>
+                                </div>
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-5 ml-auto mr-auto">  
+                                    <div class="card card-blog" data-background-color="black">    
+                                        <a data-fancybox="gallery" href="https://www.youtube.com/embed/ctd6Srk7Yac">      
+                                            <div class="video-thumbnail">        
+                                                <img class="card-img-top" src="./assets/img/video/course_320.jpg" alt="poster">      
+                                            </div>    
+                                        </a>    
+                                        <div class="card-body">
+                                            <h4 class="card-title">Course Overview</h4>
+                                        </div>  
+                                    </div>
+                                </div>
+
+                                <div class="col-md-5 ml-auto mr-auto">  
+                                    <div class="card card-blog" data-background-color="black">    
+                                        <a data-fancybox="gallery" href="https://www.youtube.com/embed/Gi5vPx8Uyhs">      
+                                            <div class="video-thumbnail">        
+                                                <img class="card-img-top" src="./assets/img/video/classroom_320.jpg" alt="poster">      
+                                            </div>    
+                                        </a>    
+                                        <div class="card-body">
+                                            <h4 class="card-title">Classrom Overview</h4>
+                                        </div>  
+                                    </div>
+                                </div>
+
+                            </div>
+
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+
+                                    <div class="btn-group">
+                                        <a href="#videos" class="btn btn-info btn-round btn-lg">More Videos</a>
+                                    </div> 
+
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                </div> -->
+
+                <div class="carousel-item">
+                    <div class="page-header header-filter">
+                        <div class="page-header-image" style="background-image: url('assets/img/students/02.jpg');"></div>
+                        <div class="content-center text-center">
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+                                    <h1 class="title">Horario annual</h1>
+                                    <h4>Cursos del año 2021</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+                                    <div class="btn-group">
+                                        <a href="#themes" class="btn btn-info btn-round btn-lg">Horario: cursos y campamentos</a>
+                                    </div> 
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="page-header header-filter">
+                        <div class="page-header-image" style="background-image: url('assets/img/students/03.jpg');"></div>
+                        <div class="content-center text-center">
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto">
+                                    <h1 class="title">Temas</h1>
+                                    <h4>Curso sobre pensamiento computacional</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+                                    <div class="btn-group">
+                                        <a href="#themes" class="btn btn-info btn-round btn-lg">Temas del curso extendido</a>
+                                    </div> 
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="carousel-item">
+                    <div class="page-header header-filter">
+                        <div class="page-header-image" style="background-image: url('assets/img/students/04.jpg');"></div>
+                        <div class="content-center text-center">
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto">
+                                    <h1 class="title">Equipo</h1>
+<!--                                     <h4 class="description text-white">¡Conoce al equipo!</h4> -->
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+
+                                    <div class="btn-group">
+                                        <a href="#team" class="btn btn-info btn-round btn-lg">¡Conoce al equipo Patrones Hermosos!</a>
+                                    </div> 
+
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="page-header header-filter">
+                        <div class="page-header-image" style="background-image: url('assets/img/students/hands.jpg');"></div>
+                        <div class="content-center text-center">
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto">
+                                    <h1 class="title">Colaboraciones</h1>
+                                    <h4>Empresas/organizaciones con que colaboramos</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+
+                                    <div class="btn-group">
+                                        <a href="#colaboraciones" class="btn btn-info btn-round btn-lg">Colaboraciones</a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="carousel-item">
+                    <div class="page-header header-filter">
+                        <div class="page-header-image" style="background-image: url('assets/img/students/01.jpg');"></div>
+                        <div class="content-center text-center">
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto">
+                                    <h1 class="title">Contáctenos</h1>
+                                    <h4>Correo electrónico</h4>
+                                </div>
+                            </div>
+
+                            <div class="row">
+                                <div class="col-md-8 ml-auto mr-auto text-center">
+                                    <div class="btn-group">
+                                        <a href="mailto:preguntas@patronas.org?Subject=Patrones%20Hermosos" class="btn btn-info btn-round btn-lg">preguntas@patronas.org</a>
+                                    </div> 
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>                                
+
+
+            </div>
+            <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+                <i class="now-ui-icons arrows-1_minimal-left"></i>
+            </a>
+            <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+                <i class="now-ui-icons arrows-1_minimal-right"></i>
+            </a>
+        </div>
+        <!-- End Carousel -->
+
+
+        <div class="main">
+
+            <div class="features-1" id="faq" data-background-color="gray">
+                <div class="container-fluid" >
+
+
+                        <div class="col-md-10 mr-auto ml-auto  text-left">
+
+                            <style>.faq{margin-top:-30px;}</style>
+                            <h2 class="title"><i class="fa fa-info-circle" aria-hidden="true"></i> FAQ</h2>
+
+                            <h3>¿Cómo puedo inscribirme?</h3>
+                            <p class="faq"> La convocatoria para el próximo curso extendido en linea abrirá en enero de 2022.</p>
+
+                            <h3>¿Cuánto cuestan los cursos?</h3>
+                            <p class="faq">Los cursos de Patrones Hermosos son 100% gratis.</p>
+
+                        </div>
+
+                </div>
+            </div>
+
+            <!--     *********     FEATURES 1 (IMPACTO)    *********      -->            
+             <div class="features-1" id="impacto">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <h2 class="title"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> NUESTRO FUTURO IMPACTO</h2>
+                       </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-primary">
+                                    <i class="fa fa-users"></i>
+                                </div>
+                                <h4 class="info-title">Entrenar 100,000 ingenieras</h4>
+                                <p class="description">hispanas en software para 2025.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-success">
+                                    <i class="now-ui-icons loader_refresh"></i>
+                                </div>
+                                <h4 class="info-title">Cambiar el paradigma</h4>
+                                <p class="description">en áreas y carreras STEM</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-warning">
+                                    <i class="now-ui-icons objects_spaceship"></i>
+                                </div>
+                                <h4 class="info-title">Independencia</h4>
+                                <p class="description">Catalizar la independencia financiera de la mujer</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--     *********     END FEATURES 1     *********      -->
+
+
+           <!--     *********     FEATURES (DESIGN PATTERNS)      *********      -->
+<!--             <div class="features-1" id="designPatterns">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto">
+                            <h2 class="title"><i class="fa fa-info-circle" aria-hidden="true"></i> DESIGN PATTERNS</h2>
+                            <h4>Computational thinking is a necessary fundamental skill for everyone. It's as important as reading, writing, and arithmetic. The need is evidenced by MIT's recent report on computational thinking. President Obama's Computer Science for All initiative recognized the same in k-12, "Our economy is rapidly shifting, and both educators and business leaders are increasingly recognizing that computer science (CS) is a “new basic” skill necessary for economic opportunity and social mobility." Join us in a journey to the fun world of computation!</h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-primary">
+                                    <i class="now-ui-icons shopping_basket"></i>
+                                </div>
+                                <h4 class="info-title">Cooking</h4>
+                                <p class="description">Have you ever considered cooking as a series of patterns? That when a cook follows a recipe he/she is folowing an algorithm?</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-success">
+                                    <i class="now-ui-icons files_box"></i>
+                                </div>
+                                <h4 class="info-title">Packing</h4>
+                                <p class="description">Have you ever considered that packing a suitcase is an optimization problem? To pack we must decide between weight, size, and volume.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-hover">
+                                <div class="icon icon-warning">
+                                    <i class="now-ui-icons business_money-coins"></i>
+                                </div>
+                                <h4 class="info-title">Currencies</h4>
+                                <p class="description">Have you ever considered that finding a coin is a search pattern? To find a coin you must first identify the type of coin, the size, and the color. Each question establishing a different search parameter.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div> -->
+            <!--     *********    END FEATURES (DESIGN PATTERNS)      *********      -->
+
+
+            <!--     *********     FEATURES (VIDEOS)      *********      -->
+<!--             <div class="features-1" id="videos" data-background-color="black"> -->
+<!--                 <div class="container-fluid" >
+
+
+                    <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h2 class="title"><i class="fa fa-video-camera" aria-hidden="true"></i> Videos</h2>
+                        </div>
+                    </div> -->
+
+
+                    <!-- Videos of course/classroom overview  -->
+<!--                     <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h3 class="description">Course & Classroom Overview</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 ml-auto mr-auto text-right">
+                            <a data-fancybox="gallery" href="https://www.youtube.com/embed/ctd6Srk7Yac">
+                              <div class="video-thumbnail">
+                                <img class="card-img-top" src="https://i.ytimg.com/vi/ctd6Srk7Yac/hqdefault.jpg" alt="poster" >
+                              </div>
+                            </a>
+                        </div>
+                        <div class="col-md-5 ml-auto mr-auto text-right">
+                            <a data-fancybox="gallery" href="https://www.youtube.com/embed/Gi5vPx8Uyhs">
+                              <div class="video-thumbnail">
+                                <img class="card-img-top" src="https://i.ytimg.com/vi/Gi5vPx8Uyhs/hqdefault.jpg" alt="poster" >
+                              </div>
+                            </a>
+                        </div>
+                    </div> -->
+
+
+                    <!-- Videos form the teaching staff  -->
+<!--                     <div class="row" style="margin-top: 50px">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h3 class="description">Teaching Staff</h3>
+                        </div>
+                    </div>
+                    <div id="tas"></div> -->
+
+                    <!-- Videos form the class activities  -->
+<!--                     <div class="row">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h3 class="description">Activities Snippets</h3>
+                        </div>
+                    </div>
+                    <div id="promo"></div> -->
+
+
+                    <!-- Videos of girls singing and beats  -->
+<!--                     <div class="row" style="margin-top: 50px">
+                        <div class="col-md-8 mr-auto ml-auto">
+                            <h3 class="description">Having Fun - Beats & Singing</h3>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-5 ml-auto mr-auto text-right">
+                            <a data-fancybox="gallery" href="https://www.youtube.com/embed/anWn77X-E3Y">
+                              <div class="video-thumbnail">
+                                <img class="card-img-top" src="https://i.ytimg.com/vi/anWn77X-E3Y/hqdefault.jpg" alt="poster" >
+                              </div>
+                            </a>
+                        </div>
+                        <div class="col-md-5 ml-auto mr-auto text-right">
+                            <a data-fancybox="gallery" href="https://www.youtube.com/embed/MsA44xz0UPE">
+                              <div class="video-thumbnail">
+                                <img class="card-img-top" src="https://i.ytimg.com/vi/MsA44xz0UPE/hqdefault.jpg" alt="poster" >
+                              </div>
+                            </a>
+                        </div>
+                    </div>
+
+
+                </div>
+            </div> -->
+            <!--     *********    END FEATURES     *********      -->
+            
+            <!--     *********     FEATURES 6 (TEMAS)      *********      -->
+            <div class="features-2" id="themes">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title"><i class="fa fa-slideshare" aria-hidden="true"></i> Temas pensamiento computacional</h2>
+                            <h4 class="description"><a href="#schedule" class="btn btn-primary btn-round btn-lg">Horario: cursos y campamentos</a></h4>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-info">
+                                    <i class="now-ui-icons emoticons_satisfied"></i>
+                                </div>
+                                <div class="description">
+                                    <h5 class="info-title">Maximizar la felicidad</h5>
+                                    <p class="description text-white">Patrones para maximizar la felicidad</p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-danger">
+                                    <i class="now-ui-icons media-2_sound-wave"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Mensajes secretos</h4>
+                                    <p class="description text-white">Patrones y algoritmos para codificar y decodificar mensajes</p>
+                                </div>
+                            </div>
+
+                            <div class="info info-horizontal">
+                                <div class="icon icon-success">
+                                    <i class="now-ui-icons files_single-copy-04"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Búsquedas</h4>
+                                    <p class="description text-white">Buscar cosas y ponerlas en orden</p>
+                                </div>
+                            </div>
+
+
+
+                        </div>
+                        <div class="col-md-4">
+                            <div class="phone-container">
+                                <img src="assets/img/schedule/pixel.jpg" />
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="info info-horizontal">
+                                <div class="icon icon-primary">
+                                    <i class="now-ui-icons design-2_ruler-pencil"></i>
+                                </div>
+                                <div class="description">
+                                    <h5 class="info-title">Rutas de viaje</h5>
+                                    <p class="description text-white">Patrones para optimizar rutas, caminos y horarios.</p>
+                                </div>
+                            </div>
+                            <div class="info info-horizontal">
+                                <div class="icon icon-success">
+                                    <i class="now-ui-icons shopping_cart-simple"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Maletas y mochillas</h4>
+                                    <p class="description text-white">¿Cuál es la mejor manera de hacer maletas?</p>
+                                </div>
+                            </div>
+
+
+                            <div class="info info-horizontal">
+                                <div class="icon icon-info">
+                                    <i class="now-ui-icons tech_controller-modern"></i>
+                                </div>
+                                <div class="description">
+                                    <h4 class="info-title">Juegos</h4>
+                                    <p class="description text-white">¿Cuáles son las mejores estrategias para ganar?</p>
+                                </div>
+                            </div>
+
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <!--     *********    END FEATURES (TEMAS)      *********      -->
+            
+             <!--     *********     FEATURES 3 (PROYECTOS FINALES)      *********      -->
+            <div class="features-3" id="proyectos-finales">
+                <style>
+                #titulo{
+                  box-sizing: content-box;  
+                  width: 100%;
+                  height: auto;
+                  padding: 20px;  
+                  border: 100px;
+                }
+                  #equipo_info {
+                  box-sizing: content-box;  
+                  width: 100%;
+                  height: auto;
+                  padding: 20px;  
+                  border: 2px;
+                  text-align:left;
+                }
+                #equipo_info_grande {
+                  box-sizing: content-box;  
+                  width: 100%;
+                  height: auto;
+                  padding: 20px;  
+                  border: 2px;
+                  text-align:left;
+                }
+                .t {
+                  display: table;
+                  width: 100%;
+                  height: auto;
+                  padding: 20px;
+                  border: 2px;
+                  text-align:left;
+                }
+
+                ul {
+                  display: table-row;
+                  padding: 20px;
+                  border: 2px;
+                  text-align:left;
+                }
+
+                li {
+                  display: table-cell;
+                }
+
+                iframe {
+                  display: block;
+                }
+                </style>
+                <div class="container">
+                    <div id="titulo">
+                        <h2 class="title"><i class="now-ui-icons design_vector" aria-hidden="true"></i> Proyectos finales</h2>
+                        <h4>Curso introductorio: pensamiento computacional y diseño web en HTML, CSS y JavaScript</h4>
+                      <p style="text-align:left"><i>El proyecto final trata de seleccionar un problema de carácter global y 
+                      crear una pieza de arte en HTML y JavaScript proponiendo una solución a tal problema.
+                      Nuestras colaboradores han puesto sus proyectos finales en nuestros repositorios en Github:
+                      <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro" target="_blank">1ra generación</a> y 
+                      <a href="https://github.com/PatronesHermosos/proyecto-final-2da-intro" target="_blank">2da generación</a>.
+                          En esta exposición, destacamos algunos proyectos:</i></p>
+                    </div> 
+
+                    <div id="equipo_info_grande">
+                        <h3>Equipo sam programanding para tu &lt;3: Desigualdad de género en la educación <i>(2da gen)</i></h3>
+                      <h4>Montserrat Castillo, Sofia Alejandra Ampudia, Anyalexie Castillo</h4>
+                      <!-- <p>Repositorio en Github: <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md" target="_blank">https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md</a></p> -->
+                      <p>Nuestro proyecto busca dar solución a la desigualdad de género en la educación mediante la programación de una página web y una obra de arte. Esta última aborda la problemática desde una perspectiva metafórica, y la página da links para cursos, talleres y programas que impulsan a la mujer a construir un futuro amplio y libre de barreras.</p>  
+                      </div>
+                      <div class="t">
+                        <ul>
+
+                          <li>Etapa 2
+                            <iframe src="https://www.youtube.com/embed/7BRYW5fgGm4?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+
+                          <li>Etapa 3
+                            <iframe src="https://www.youtube.com/embed/P6JtaNLuq18?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                            <li>Etapa 5
+                                <iframe src="https://www.youtube.com/embed/PXJ8uKaWKAs?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                        </ul>
+                      </div>
+
+                    <div id="equipo_info_grande">
+                        <h3>Equipo Ada Lovelace: La educación como medio para la inteligencia eco-ambiental <i>(2da gen)</i></h3>
+                      <h4>Natalia Beltrán, Dalinda Montes, Laura Muñóz, Kenia Flores</h4>
+                      <!-- <p>Repositorio en Github: <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md" target="_blank">https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md</a></p> -->
+                      <p>Se pretende comunicar en la obra que las personas de cualquier edad tienen la capacidad de comunicarle a las demás personas los problemas a los que la humanidad se enfrenta con el fin de que se busquen y creen acciones concretas para mejorar la situación. Esto lo logramos por medio de un maestro mostrándole a un alumno la realidad de la contaminación en los mares; cómo es que este hace conciencia de ello al observarlo con sus propios ojos es el objetivo del maestro.</p>  
+                      </div>
+                      <div class="t">
+                        <ul>
+
+                          <li>Etapa 2
+                            <iframe src="https://www.youtube.com/embed/hqWrc4J6igo?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+
+                          <li>Etapa 3
+                            <iframe src="https://www.youtube.com/embed/FRe4i4bNSfk?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+                            <li>Etapa 5
+                                <iframe src="https://www.youtube.com/embed/lEMnVuPYX_A?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                        </ul>
+                      </div>
+
+                      <div id="equipo_info_grande">
+                        <h3>Equipo Lucha por la equidad de genero: Proyecto final, ilustración <i>(1ra gen)</i></h3>
+                      <h4>Valeria Anaya Guerrero, Gabriela Polanco, Carolina de Jesús Vicente Tequida</h4>
+                      <!-- <p>Repositorio en Github: <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md" target="_blank">https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md</a></p> -->
+                      <p>Ilustración generada por medio de puntos, la cual representa la lucha por la equidad de genero.</p>  
+                      </div>
+                      <div class="t">
+                        <ul>
+                            <li>Etapa 1
+                                <iframe src="https://www.youtube.com/embed/laOc_SzK7r4?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+
+                          <li>Etapa 2
+                            <iframe src="https://www.youtube.com/embed/pwpgmVHFMP0?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+
+                          <li>Etapa 3
+                            <iframe src="https://www.youtube.com/embed/yI89leo1czM?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                            <li>Etapa 4
+                                <iframe src="https://www.youtube.com/embed/fTZnueNX4JE?rel=0" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                        </ul>
+                      </div>
+
+                    <div id="equipo_info">
+                        <h3>Equipo Alfa Buena Maravilla Onda Dinamita Escuadrón Lobo 16: ¿De verdad no pasa nada? <i>(1ra gen)</i></h3>
+                      <h4>Mariana Mondragón Roldán, María José Cobacho Trejo, Daniela Yafar Martínez, Graciela Zárate García</h4>
+                      <!-- <p>Repositorio en Github: <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md" target="_blank">https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-16/entregables.md</a></p> -->
+                      <p>Nuestra pieza es una imagen que muestra los problemas derivados de la contaminación y del consumismo. Lo hicimos creando una imagen que representa el mar y llenándola de los animales que se ven afectados así como de imágenes que representan basura.</p>  
+                      </div>
+                      <div class="t">
+                        <ul>
+
+                          <li>Etapa 1
+                            <iframe src="https://player.vimeo.com/video/535603716?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+
+                          <li>Etapa 2
+                              <iframe src="https://player.vimeo.com/video/538459853?rel=0" frameborder="0" 
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+
+                          <li>Etapa 3
+                              <iframe src="https://player.vimeo.com/video/541449813?rel=0" frameborder="0" 
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                            <li>Etapa 4
+                              <iframe src="https://player.vimeo.com/video/547235714?rel=0" frameborder="0" 
+                              allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                            </li>
+                        </ul>
+                      </div>
+
+                    <div id="equipo_info_grande">
+                      <h3>Equipo Acción verde: Acciones Individuales frente al cambio climático <i>(1ra gen)</i></h3>
+                      <h4>Pamela Gabutti, Majo Govea, Mayra Marilyn </h4>
+                      <!-- <p>Repositorio en Github: <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-07/entregables.md" target="_blank">https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-07/entregables.md</a></p> -->
+                      <p>El proyecto consta de una página web hecha con un bootstrap de carousel para hablar sobre la meta #13 de la ONU "Climate action". En la página, editamos el texto, las imágenes, agregamos hipervínculos para que quienes la visiten puedan consultar información de páginas externas y además, a través de código diseñamos una imagen que refleja algunas de las soluciones que propusimos como son el fomentar el cultivo de alimentos propios y reducir el consumo de carnes rojas en nuestras dietas. Asimismo, decidimos personlaizarla un poco agregándole un favicon distinto a la "B" de Bootstrap.</p>
+                    </div>
+                    <div class="t">
+                      <ul>
+
+                        <li>Etapa 1
+                          <iframe src="https://www.youtube.com/embed/DhVoBIbOv7k?rel=0" frameborder="0" 
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+
+                        <li>Etapa 2
+                            <iframe src="https://www.youtube.com/embed/ANDAVj45U5A?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+
+                        <li>Etapa 3
+                            <iframe src="https://www.youtube.com/embed/dAFqXYFKJBA?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+
+                          <li>Etapa 4
+                            <iframe src="https://www.youtube.com/embed/K5oz2XRkX8A?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+                      </ul>
+                    </div>
+
+                    <div id="equipo_info">
+                      <h3>Equipo STEM Power: Igualdad de género y empoderamiento de la mujer en STEM <i>(1ra gen)</i></h3>
+                      <h4>Silvana Lopez Rivas, Pilar Vazquez, Enid Perez Robles, Zayra Vazquez</h4>
+                      <!-- <p>Repositorio en Github: <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-04/entregables.md" target="_blank">https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-04/entregables.md</a></p> -->
+                      <p>
+                        Programamos una página que pretende concientizar e inspirar la igualdad de género y empobrecimiento de las mujeres en STEM. 
+                        Buscamos fomentar la igualdad de género en las carreras STEM y que las niñas de hoy no se desmotiven por las falsas creencias que aún existen.
+                        </p>
+                      </div>
+                    <div class="t">
+                      <ul>
+
+                        <li>Etapa 1
+                          <iframe src="https://www.youtube.com/embed/2K3GdmpvEm0?rel=0" frameborder="0" 
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+
+                        <li>Etapa 2
+                            <iframe src="https://www.youtube.com/embed/LtTP_oocTf0?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+
+                        <li>Etapa 3
+                            <iframe src="https://www.youtube.com/embed/pl54yAP9mw8?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+
+                          <li>Etapa 4
+                            <iframe src="https://www.youtube.com/embed/VtaKtFfsKmk?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+                      </ul>
+                    </div>
+
+                    <div id="equipo_info_grande">
+                    <h3>Equipo Cuatro Mosqueteras: Patrones hermosos y diversos  <i>(1ra gen)</i></h3>
+                    <h4>Ixchel Cruz, Sofia Ginebra, Camila Magos, Danna Gómez</h4>
+                    <!-- <p>Repositorio en Github: <a href="https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-10/entregables.md" target="_blank">https://github.com/PatronesHermosos/proyecto-final-1ra-intro/blob/main/equipo-10/entregables.md</a></p> -->
+                    <p>El proyecto consta de una página web hecha con un bootstrap de carousel para hablar sobre la meta #13 de la ONU "Climate action". En la página, editamos el texto, las imágenes, agregamos hipervínculos para que quienes la visiten puedan consultar información de páginas externas y además, a través de código diseñamos una imagen que refleja algunas de las soluciones que propusimos como son el fomentar el cultivo de alimentos propios y reducir el consumo de carnes rojas en nuestras dietas. Asimismo, decidimos personlaizarla un poco agregándole un favicon distinto a la "B" de Bootstrap.</p>
+                    </div>
+                    <div class="t">
+                      <ul>
+
+                        <li>Etapa 1
+                          <iframe src="https://www.youtube.com/embed/hMhknDLX__o?rel=0" frameborder="0" 
+                          allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </li>
+
+                        <li>Etapa 2
+                            <iframe src="https://www.youtube.com/embed/F3gqmzwZ918?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+
+                        <li>Etapa 3
+                            <iframe src="https://www.youtube.com/embed/25TVB_ssv5E?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+
+                        <li>Etapa 4
+                            <iframe src="https://www.youtube.com/embed/siUL2Ls5ZII?rel=0" frameborder="0" 
+                            allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                          </li>
+                      </ul>
+                    </div>
+                </div> <!-- container -->
+            </div> <!-- features-3 -->
+            <!--     *********    END FEATURES 3      *********      -->
+
+
+            <div id="schedule" class="section section-cards" data-background-color="gray">
+                <!--     *********    HORARIO     *********      -->
+                <div class="cards">
+                    <div class="container">
+                        <div class="title">
+                            <h2 class="title"><i class="fa fa-calendar" aria-hidden="true"></i> Cursos extendidos: horario 2021</h2>
+                            <p><i class="fa fa-info-circle" aria-hidden="true"></i> Cursos 100% en linea y abiertos a mujeres, personas non-binarias, personas inconformes de género en América Latina</p>
+                        </div>
+
+<!--                         Primavera 2021 -->
+                        <div class="row align-items-start" style="margin: 25px;">
+                            <div class="col">
+                                <h3>Primavera 2021</h3>
+                                <h4>120+ alumnas (13 años+)</h4>
+                                <div class="card card-blog">
+                                    <div class="card-image">
+                                        <a href="#pablo">
+                                            <img class="img rounded" src="assets/img/schedule/happy_01.jpg" style="width:100%;height:auto;">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="category text-primary">Curso pensamiento computacional y HTML, CSS, JavaScript</h6>
+                                        <h5 class="card-title">
+                                            Primera generación
+                                        </h5>
+                                        <p class="card-description">
+                                             Febrero - Mayo 2021
+                                        </p>
+                                    </div>
+                                </div>
+                             </div>
+
+<!--                             Verano 2021 -->
+                            <div class="col align-items-center">
+                                <h3>Verano 2021</h3>
+                                <h4>80+ alumnas (13 años+)</h4>
+                                <div class="card card-blog">
+                                    <div class="card-image">
+                                        <a href="#pablo">
+                                            <img class="img rounded" src="assets/img/schedule/project.jpg" style="width:100%;height:auto;">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="category text-primary">Curso pensamiento computacional y HTML, CSS, JavaScript</h6>
+                                        <h5 class="card-title">
+                                            Segunda generación
+                                        </h5>
+                                        <p class="card-description">
+                                            Mayo - Agosto 2021
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+
+<!--                             Invierno 2021 -->
+                            <div class="col align-items-end">
+                                <h3>Invierno 2021</h3>
+                                <h4>180+ alumnas (13 años+)</h4>
+                                <div class="card card-blog">
+                                    <div class="card-image">
+                                        <a href="#pablo">
+                                            <img class="img rounded" src="assets/img/schedule/find_03.jpg" style="width:100%;height:auto;">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="category text-primary">Curso pensamiento computacional y HTML, CSS, JavaScript</h6>
+                                        <h5 class="card-title">
+                                            Tercera generación
+                                        </h5>
+                                        <p class="card-description">
+                                            Septiembre - Diciembre 2021
+                                        </p>
+                                    </div>
+                                </div>   
+                            </div>
+                        </div> <!-- row align campamentos -->
+                        
+<!--                         Campamentos -->
+                        <div class="title">
+                            <h2 class="title"><i class="fa fa-calendar" aria-hidden="true"></i> Campamentos por una semana 2017-2019</h2>
+                            <p><i class="fa fa-info-circle" aria-hidden="true"></i> Campamentos por una semana abiertos para chicas 13-17 años</p>
+                        </div>
+<!--                         Enero 2022 -->
+                        <div class="row align-items-start" style="margin: 25px;">
+                            <div class="col">
+                                <h3>Enero 2022, Verano 2022</h3>
+                                <h4>Inscripciones abiertas</h4>
+                                <div class="card card-blog">
+                                    <div class="card-image">
+                                        <a href="#pablo">
+                                            <img class="img rounded" src="assets/img/students/05.jpg" style="width:100%;height:auto;">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="category text-primary">En linea (una semana)</h6>
+                                        <h5 class="card-title">
+                                            Diseño web y Python
+                                        </h5>
+                                        <p class="card-description">
+                                             Nivel: básico/avanzado
+                                        </p>
+                                    </div>
+                                </div>
+                             </div>
+                            <!--  Enero 2021 -->
+                            <div class="col">
+                                <h3>Enero 2021</h3>
+                                <h4>600+ alumnas (13-17 años)</h4>
+                                <div class="card card-blog">
+                                    <div class="card-image">
+                                        <a href="#pablo">
+                                            <img class="img rounded" src="assets/img/students/01.jpg" style="width:100%;height:auto;">
+                                        </a>
+                                    </div>
+                                    <div class="card-body">
+                                        <h6 class="category text-primary">En linea (una semana)</h6>
+                                        <h5 class="card-title">
+                                            Diseño web y Python
+                                        </h5>
+                                        <p class="card-description">
+                                             Nivel: básico/avanzado
+                                        </p>
+                                    </div>
+                                </div>
+                             </div>
+<!--                         Mayo 2019, Mayo 2018, Mayo 2017 -->
+                            <div class="col align-items-end">
+                                    <h3>Mayo: 2019, 2018, 2017</h3>
+                                    <h4>2,500+ alumnas (13-17 años)</h4>
+                                    <div class="card card-blog">
+                                        <div class="card-image">
+                                            <a href="#pablo">
+                                                <img class="img rounded" src="assets/img/students/02.jpg" style="width:100%;height:auto;">
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h6 class="category text-primary">Presencial (una semana)</h6>
+                                            <h5 class="card-title">
+                                                Pensamiento computacional y diseño web
+                                            </h5>
+                                            <p class="card-description">
+                                                 En 30+ ciudades en México
+                                            </p>
+                                        </div>
+                                    </div>
+                           </div>
+                       </div> <!-- row align campamentos -->
+                        
+                    </div> <!-- container -->
+                </div> <!-- cards -->
+            </div> <!-- section -->
+            <!-- BLOG CARDS END -->
+
+
+            <!--     *********    TEAM 4     *********      -->
+            <div class="team-4" id="team">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title"><i class="fa fa-users" aria-hidden="true"></i> Equipo</h2>
+                            <h4 class="description">¡Conoce al equipo!</h4>
+                        </div>
+                    </div>
+                    
+<!--                     <div class="row">
+                                    <div class="col">
+                                        <div class="card-image">
+                                            <a href="#pablo">
+                                                <img class="img img rounded" src="assets/img/team/abel.jpg" style="object-fit: contain;"/>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Abel Sanchez</h4>
+                                            <h6 class="category">Co-Director: Producción y Educación</h6>
+                                            <p class="card-description">
+                                                Dr. Abel Sánchez (https://abel.mit.edu/bio.html) tiene un doctorado del MIT y es el Director Ejecutivo del Centro 
+                                                de datos Geoespaciales del MIT. Abel ha diseñado el software EdTech para Microsoft, la Academia de Tecnología de 
+                                                Accenture, un recurso en línea para más de 200,000 empleados, el Banco Santander y empresas de América, Europa, 
+                                                Oriente Medio y Asia. Tiene 10 años de experiencia en sistemas de gestión de aprendizaje y ha realizado 
+                                                despliegues en América, Asia y Europa. Imparte cursos del MIT sobre ciberseguridad, computación de ingeniería y 
+                                                ciencia de datos y ha producido más de 1000 videos educativos.
+                                            </p>
+                                        </div>
+                                    </div>
+                        
+                                   <div class="col">
+                                        <div class="card-image">
+                                            <a href="#pablo">
+                                                <img class="img img rounded" src="assets/img/team/kasturi_shah_ph.JPG" style="object-fit: contain;"/>
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Kasturi Shah</h4>
+                                            <h6 class="category">Co-Directora: Producción y Educación</h6>
+                                            <p class="card-description">
+                                                Me apasiona crear oportunidades educativas equitativas e inclusivas para estudiantes en entornos desfavorecidos. 
+                                                Soy de la ciudad de Mumbai en India, pero he trabajado en muchas partes del mundo, por ejemplo, construyendo sistemas 
+                                                de agua potable en Perú y Kenya, desarrollando una iniciativa accesible y gratis para enseñar inglés a través de 
+                                                teléfonos móviles en la India y estudiando la física en Princeton en los EEUU para mi bachillerato. Actualmente, soy 
+                                                un estudiante de doctorado en MIT donde conocí a Abel y me dediqué a crecer a Patrones Hermosos como voluntaria. 
+                                                Durante mi doctorado, estudio sistemas geofísicas utilizando mi entretenimiento en la física, las matemáticas y la programación. 
+                                                A través de mis investigaciones, soy parte de un esfuerzo científico y global para entender estos sistemas, para proteger 
+                                                nuestro planeta y para proveer una alta calidad de vida para todas especies. 
+                                                ¡A mi me motiva ser parte de iniciativas y objetivos más grandes que la persona que soy!
+                                            </p>
+                                        </div>
+                                    </div>
+                     </div>
+                    
+                    <div class="row">
+                                    <div class="col">
+                                        <div class="card-image">
+                                            <a href="#pablo">
+                                                <img class="img img rounded" src="assets/img/tas/carolinaBarreiroValdez.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Carolina Barreiro</h4>
+                                            <h6 class="category">Co-Directora: Comunicación y Alcance</h6>
+                                            <p class="card-description">
+                                                Estudiante de la Especialidad en Ingeniería y Gestión de Proyectos en la Universidad Panamericana. 
+                                                Alumni de la última generación de Ingeniería en Animación Digital UP (16-20) y alumni MITPE de la 
+                                                certificación Cloud and DevOps. Ha trabajado como consultora de gestión para grupos estudiantiles y 
+                                                empresas de desarrollo de software durante los últimos dos años. Tiene experiencia con Metodologías Ágiles, 
+                                                siendo su expertiz SCRUM. Actualmente es Project Manager en Iterando, una startup mexicana, y Solution 
+                                                Architect Trainee en Red Hat México. Fue becaria de investigación del Dr. Abel Sánchez, director ejecutivo 
+                                                del Centro de Datos Geoespaciales del MIT y participó como asistente de enseñanza en el programa Patrones 
+                                                Hermosos. Le apasionan las áreas Educación y Tecnología guiadas por temas de Liderazgo y crecimiento personal: 
+                                                busca siempre compartir conocimiento de manera dinámica y sencilla. Amante de la ecología, el deporte, las artes 
+                                                visuales, la fotografía, el cine y la música.
+                                            </p>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col">
+                                        <div class="card-image">
+                                            <a href="#pablo">
+                                                <img class="img img rounded" src="assets/img/team/Aguilar.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Sarahí Aguilar</h4>
+                                            <h6 class="category">Co-Directora: Comunicación y Alcance</h6>
+                                            <p class="card-description">
+                                                Actualmente, me desempeño como científica de datos en la industria de investigación de mercados en el equipo 
+                                                global de innovación en IA y datos no estructurados de Kantar. He trabajado en grupos de investigación académica 
+                                                en la Facultad de Ingeniería de la Universidad Panamericana y participado como ponente en congresos 
+                                                internacionales (MICAI 2019 y Latin American SumMIT 2020). Me apasiona la investigación en temas relacionados a 
+                                                la educación e igualdad de género (este capítulo estudiantil surge como resultado de esta ecuación). Disfruto 
+                                                las caminatas y las carreras largas, la poesía latinoamericana, pasar tiempo con mis seres queridos, consentir a
+                                                mi gato y un buen solo de bajo. Mulán y Jude Milhon son mis heroínas.
+                                            </p>
+                                        </div>
+                                    </div>
+                    </div>
+                        
+                    <div class="row">
+                                    <div class="col">
+                                        <div class="card-image">
+                                            <a href="#pablo">
+                                                <img class="img img rounded" src="assets/img/team/erica_santana.jpeg" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Erica Santana</h4>
+                                            <h6 class="category">Co-Directora: Community Building</h6>
+                                            <p class="card-description">
+                                            </p>
+                                        </div>
+                                    </div>
+                        
+                                    <div class="col">
+                                        <div class="card-image">
+                                            <a href="#pablo">
+                                                <img class="img img rounded" src="assets/img/instructors/pushpitaBhattacharjee.jpg" />
+                                            </a>
+                                        </div>
+                                        <div class="card-body">
+                                            <h4 class="card-title">Pushpita Bhattacharjee</h4>
+                                            <h6 class="category">Co-Directora: Community Building</h6>
+                                            <p class="card-description">
+                                                Soy de una ciudad muy pequeña en la India. Actualmente soy líder en la entrega de productos de realidad 
+                                                aumentada para PTC en Boston MA USA. A una edad muy temprana, decidí perseguir STEM ya que mis padres siempre 
+                                                me animaron a mí y a mi hermano a tener igualdad de oportunidades en la vida. Después de graduarme, trabajé 
+                                                durante 15 años en la industria de TI, y cumplí mi pasión por viajar y conocer gente de todo el mundo. Luego 
+                                                volví a la escuela en el MIT donde conocí a Abel y empecé a trabajar como voluntario para Patrones Hermosos. 
+                                                Es una causa muy cercana a mi corazón. Siento que ¡sería increíble si puedo encender una pasión por la tecnología 
+                                                en la mente de una joven!
+                                            </p>
+                                        </div>
+                                    </div>
+                    </div> -->
+                    
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h3 class="title">Equipo Nucleo</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h3 class="title">Colaboradoras</h3>
+                        </div>
+                    </div>
+                    
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h3 class="title">Moderadoras cursos extendidos</h3>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h3 class="title">Instructoras Campamento Mayo 2018</h3>
+                        </div>
+                    </div>
+
+
+                    <!-- Instructors Row 1 -->
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/abigailChoe.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Abigail Choe</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/alizaCamacho.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Aliza Camacho</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/beckyBell.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Becky Bell</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/chessaHoekstra.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Chessa Hoekstra</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/danielaGanelin.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Daniela Ganelin</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/donnaGan.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Donna Gan</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructors Row 2 -->
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/dorothySun.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Dorothy Sun</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/emilyRogers.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Emily Rogers</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/ericaYuen.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Erica Yuen</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/ericaSantana.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Erica Santana</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/janelleSands.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Janelle Sands</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/lwinMoe.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Lwin Moe</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Instructors Row 3 -->
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/melodyCao.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Melody Cao</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/navilPerez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Navil Perez</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/emmaKing.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Emma King</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/nidhiSharma.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Nidhi Sharma</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/nomiVilvovsky.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Nomi Vilvovsky</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/oliviaSiegel.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Olivia Siegel</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Instructors Row 4 -->
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/oliviaWaring.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Olivia Waring</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/pankhuriSen.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Pankhuri Sen</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/priyaKher.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Priya Kher</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/pushpitaBhattacharjee.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Pushpita Bhattacharjee</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/randiWilliams.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Randi Williams</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/rmaniHaulcy.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">R'mani Haulcy</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Instructors Row 5 -->
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/silviaVazquez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Silvia Vazquez</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/sophieMori.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Sophie Mori</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/stephanieHu.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Stephanie Hu</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/veronicaLin.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Veronica Lin</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/alyssaDayan.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Alyssa Dayan</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/heatherHausladen.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Heather Hausladen</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+
+                    <!-- Instructors Row 5 -->
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/penielArgaw.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Peniel Argaw</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/instructors/kasturiShah.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Kasturi Shah</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                    </div>
+
+
+
+               
+            <!--     *********    END TEAM 4      *********      -->
+            <!--     *********** Teaching Assistants ******** -->
+
+                     <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h3 class="title">Teaching Assistants Campamento Mayo 2018</h3>
+                        </div>
+                    </div>
+
+
+                    <!-- Teaching Assistants Row 1 -->
+                    <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/alejandraArriaga.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Alejandra Arriaga</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/alejandraSavageBriz.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Alejandra Savage Briz</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/alejandraVelasco.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Alejandra Velasco</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/anaLucíaRodríguezHernández.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Ana Lucía Rodríguez Hernández</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/anaRobles.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Ana Robles</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/anasofiaOrdazEstrada.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Anasofia Ordaz Estrada</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                     <!-- Teaching Assistants Row 2 -->
+                     <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/andreaAlejandraMondragónOlivos.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Andrea Alejandra Mondragón Olivoss</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/carolinaBarreiroValdez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Carolina Barreiro Valdez</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/carolinaCastañedaLeón.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Carolina Castañeda León</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/carolinaJiménezRossainz.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Carolina Jiménez Rossainz</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/cinthyaRosasaCasanova.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Cinthya Rosasa Casanova</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/danielaAbigaílParralesMejía.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Daniela Abigaíl Parrales Mejía</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                     <!-- Teaching Assistants Row 3 -->
+                     <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/danielaOrtizBibriesca.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Daniela Ortiz Bibriesca</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/deniseEnkerlin.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Denise Enkerlin</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/dianneVillicaña.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Dianne Villicaña</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/estefaníaBotelloRamírez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Estefanía Botello Ramírez</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/EstefaníaPitolMartínez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Estefanía Pitol Martínez</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/fatimaDelRosarioArámbulaCoronado.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Fatima del Rosario Arámbula Coronado</h4>
+                                </div>
+                            </div>
+                        </div>
+                  
+                    </div>
+
+                     <!-- Teaching Assistants Row 4 -->
+                     <div class="row">
+                          <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/FatimaRamirez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Fatima Ramirez</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/gabrielaMaríaGarzaCantú.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Gabriela María Garza Cantú</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/gladysGarzaOrtega.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Gladys Garza Ortega</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/jeanetteMosquedCruz.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Jeanette Mosqued Cruz</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/jeniferAlondraRomeroFlores.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Jenifer Alondra Romero Flores</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/jessicaGuadalupeSánchezMartínez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Jessica Guadalupe Sánchez Martínez</h4>
+                                </div>
+                            </div>
+                        </div>
+                     </div>
+
+                     <!-- Teaching Assistants Row 5 -->
+                     <div class="row">
+                         <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/jessicaJanethCisnerosGonzález.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Jessica Janeth Cisneros González</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/KarlaAlejandraPedrozaBonilla.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Karla Alejandra Pedroza Bonilla</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/karlaEsbeidyZamoraFerniza.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Karla Esbeidy Zamora Ferniza</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/karlaMichelleMárquezRuiz.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Karla Michelle Márquez Ruiz</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/lizzethMuñoz.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Lizzeth Muñoz</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/lourdesBeatrizCajicaMaceda.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Lourdes Beatriz Cajica Maceda</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                     </div>
+
+
+                     <!-- Teaching Assistants Row 6 -->
+                     <div class="row">
+                         <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/mariaAraceliaAlcortaGarcia.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Maria Aracelia Alcorta Garcia</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/maríaFernandaPérezRodríguez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">María Fernanda Pérez Rodríguez</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/maríaLnésMendozaRodríguez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">María Inés Mendoza Rodríguez</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/MarianaValdezDíaz.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Mariana Valdez Díaz</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/marianaDelavega.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Mariana Delavega</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/marijoseDavila.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Marijose Davila</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+
+                     <!-- Teaching Assistants Row 7 -->
+                     <div class="row">
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/mirianDelCarmenHipólitoGarcía.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Mirian del Carmen Hipólito García</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/monserratNavarrete.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Monserrat Navarrete</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/nataliaSerrano.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Natalia Serrano</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/paolaGarzonVillar.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Paola Garzon Villar</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/sarahíAguilarGonzález.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Sarahí Aguilar González</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/sofíaDurazo.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Sofía Durazo</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Teaching Assistants Row 8 -->
+                     <div class="row">
+                        
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/sofíaDurazoAngulo.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Sofía Durazo Angulo</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/soniaRamírezSánchez.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Sonia Ramírez Sánchez</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/tabathaTabeliAcostaPastrana.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Tabatha Tabeli Acosta Pastrana</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/valeriaRodríguezEspinoza.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Valeria Rodríguez Espinoza</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/verónicaRodríguezRico.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Verónica Rodríguez Rico</h4>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/shareniBereniceOrtegaGuerra.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Shareni Berenice Ortega Guerra</h4>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+           <!-- Teaching Assistants Row 9 -->
+                     <div class="row">
+                        
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/karenIrasemaCastañedaSandoval.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Karen Irasema Castañeda Sandoval</h4>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/aliciaTorresOlascoaga.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Alicia Torres Olascoaga</h4>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col-md-2">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/tas/pauletteRaimond-KedilhacBarba.jpg" />
+                                    </a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Paulette Raimond-Kedilhac Barba</h4>
+                                </div>
+                            </div>
+                        </div>
+                        
+                    </div>
+                </div>
+            </div>
+            
+<!--        **************** FEATURE (TESTIMONIOS) ****************      -->
+           <div class="testimonios" id="testimonios" data-background-color="gray">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-8 ml-auto mr-auto text-center">
+                            <h2 class="title"><i class="now-ui-icons ui-2_chat-round" aria-hidden="true"></i> TESTIMONIOS</h2>
+                            <h4 class="description">Testimonios desde nuestras alumnas en los cursos extendidos</h4>
+                        </div>
+                    </div>
+
+                    <!-- Testimonios Row 1 -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/testimonios/testimonial01.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/testimonios/testimonial02.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/testimonios/testimonial03.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+<!--                     Testimonios Row 2 -->
+                    <div class="row">
+                        <div class="col">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/testimonios/testimonial04.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/testimonios/testimonial05.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="card card-profile card-plain">
+                                <div class="card-image">
+                                    <a href="#pablo">
+                                        <img class="img img rounded" src="assets/img/testimonios/testimonial06.png" />
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+               </div> <!-- container -->
+            </div> <!-- class testimonios -->
+
+
+            <!-- <div class="features-1" id="citymap" data-background-color="gray">
+                    <div class="container-fluid" >
+    
+    
+                            <div class="col-md-10 mr-auto ml-auto  text-left">
+    
+                               
+    
+                            </div>
+    
+                    </div>
+                </div> -->
+            <div class="section section-nucleo-icons" id="colaboraciones">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6 col-md-12">
+                            <h2 class="title"><i class="fa fa-briefcase" aria-hidden="true"></i> COLABORACIONES</h2>
+                            <h4>
+                                Patrones Hermosos quisiera agradecer a Tecnológico de Monterrey (ITESM) por su soporte para los campamentos annuales para niñas 13-17 años.
+                            </h4>
+                            <p class="description">
+                                Instituto Tecnológico y de Estudios Superiores de Monterrey (ITESM), también conocido como Tecnológico de Monterrey o simplemente Tec, es una universidad privada, no sectaria y coeducativa con sede en Monterrey, México. 
+                                Fundada en 1943 por industriales de la ciudad de Monterrey, ITESM ha crecido hasta incluir 31 campus en 25 ciudades de todo el país, convirtiéndose en la universidad más reconocida de América Latina.
+                            </p>
+                            <img src="assets/img/partners/itesm_02.png" width="200" style="display:block; margin:auto;">
+                        </div>
+                        <div class="col-lg-6 col-md-12 text-center">
+                            <center>
+                            <img src="assets/img/students/hands.jpg">
+                            </center>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+        </div>
+        <!-- END MAIN -->
+
+
+        <footer class="footer " data-background-color="black">
+            <div class="container">
+              <nav>
+                  <ul>
+<!--                       <li>
+                          <a href="http://geospatial.mit.edu"> MIT GDC
+                          </a>
+                      </li> -->
+                      <li>
+                          <a href="#impacto">
+                              Impacto
+                          </a>
+                          <a href="#team">
+                              Equipo
+                          </a>
+                      </li>
+                      <li>
+                          <a href="https://forum.beautifulpatterns.org" target="_blank">
+                              Foro
+                          </a>
+                      </li>
+                      <li>
+                          <a href="#themes">
+                              Patrones
+                          </a>
+                      </li>
+                  </ul>
+              </nav>
+<!--                 <div class="copyright">
+                    <a href="http://www.mit.edu">
+                        <img src="assets/img/logos/mit2.png">
+                    </a>
+                </div> -->
+            </div>
+        </footer>
+
+    </div>
+    <!-- END WRAPPER -->
+
+</body>
+
+<!--   Core JS Files   -->
+<script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<script src="./assets/js/plugins/moment.min.js"></script>
+<!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
+<script src="./assets/js/plugins/bootstrap-switch.js"></script>
+<!--	Plugin for Tags, full documentation here: https://github.com/bootstrap-tagsinput/bootstrap-tagsinputs  -->
+<script src="./assets/js/plugins/bootstrap-tagsinput.js"></script>
+<!--	Plugin for Select, full documentation here: http://silviomoreto.github.io/bootstrap-select -->
+<script src="./assets/js/plugins/bootstrap-selectpicker.js" type="text/javascript"></script>
+<!--  Google Maps Plugin    -->
+<!-- <script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?key=YOUR_KEY_HERE"></script> -->
+<!--	Plugin for Fileupload, full documentation here: http://www.jasny.net/bootstrap/javascript/#fileinput -->
+<script src="./assets/js/plugins/jasny-bootstrap.min.js"></script>
+<!--  Plugin for the Sliders, full documentation here: http://refreshless.com/nouislider/ -->
+<script src="./assets/js/plugins/nouislider.min.js" type="text/javascript"></script>
+<!--  Plugin for the DatePicker, full documentation here: https://github.com/uxsolutions/bootstrap-datepicker -->
+<script src="./assets/js/plugins/bootstrap-datetimepicker.min.js" type="text/javascript"></script>
+<!-- Control Center for Now Ui Kit: parallax effects, scripts for the example pages etc -->
+<script src="./assets/js/now-ui-kit.js?v=1.2.0" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.2/superagent.min.js"></script>
+<script src="./assets/js/video.js"></script>
+
+<script type="text/javascript">
+    $(document).ready(function() {
+        // the body of this function is in assets/js/now-ui-kit.js
+        nowuiKit.initSliders();
+    });
+</script>
+
+</html>
