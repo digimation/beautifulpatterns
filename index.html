@@ -20,7 +20,7 @@
     <!-- CSS Just for demo purpose, don't include it in your project -->
     <link href="./assets/css/demo.css" rel="stylesheet" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.css" />
-
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
 
     <style>
     .video-thumbnail {
@@ -96,12 +96,12 @@
                       <p>Description</p>
                     </a>
                   </li> -->
-                  <li class="nav-item">
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="#impacto">
                       <i class="fa fa-lightbulb-o"></i>
                       <p>Impacto</p>
                     </a>
-                  </li>
+                  </li> -->
 <!--                   <li class="nav-item">
                     <a class="nav-link" href="#qué">
                       <i class="fa fa-info-circle"></i>
@@ -121,26 +121,41 @@
                     </a>
                   </li> -->
 
-                  <li class="nav-item">
-                    <a class="nav-link" href="#horario">
+                  <!-- <li class="nav-item"> -->
+                     <!-- <a class="nav-link" href="#horario">
                       <i class="now-ui-icons ui-1_calendar-60"></i>
                       <p>Cursos</p>
-                    </a>
-                  </li>
-
+                    </a>  -->
+                    <li class="nav-item dropdown">
+                        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                            <i class="now-ui-icons ui-1_calendar-60"></i>
+                            Cursos
+                        </a>
+                        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                          <a class="dropdown-item" href="#horario">Horario</a>
+                          <a class="dropdown-item" href="#impacto">Impacto</a>
+                          <a class="dropdown-item" href="#equipo">Equipo</a>
+                          <a class="dropdown-item" href="#inscribete">Inscríbete</a>
+                          <a class="dropdown-item" href="#equipo">Proyectos Finales</a>
+                          <div class="dropdown-divider"></div>
+                          <a class="dropdown-item" href="#testimonios">Testimonios</a>
+                        </div>
+                      </li>
+                  <!-- </li> -->
+<!-- 
                   <li class="nav-item">
                     <a class="nav-link" href="#equipo">
                       <i class="now-ui-icons users_single-02"></i>
                       <p>Equipo</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
+                  </li> -->
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="#testimonios">
                       <i class="now-ui-icons ui-2_chat-round"></i>
                       <p>Testimonios</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
+                  </li> -->
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="#inscribete">
                       <i class="now-ui-icons media-1_button-play"></i>
                       <p>Inscríbete</p>
@@ -151,12 +166,25 @@
                       <i class="now-ui-icons design_vector"></i>
                       <p>Proyectos</p>
                     </a>
-                  </li>
-                  <li class="nav-item">
+                  </li> -->
+                  <!-- <li class="nav-item">
                     <a class="nav-link" href="https://docs.google.com/forms/d/e/1FAIpQLSdWZsaRp2bFx4xE4L4f_Q707xqJ_lkSH4_9E0TdIG06V8nbTA/viewform" target="_blank">
                       <i class="now-ui-icons ui-1_send"></i>
                       <p>Campamentos</p>
                     </a>
+                  </li> -->
+                  <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                        <i class="now-ui-icons ui-1_send"></i>
+                        Campamentos
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                      <a class="dropdown-item" href="https://docs.google.com/forms/d/e/1FAIpQLSdWZsaRp2bFx4xE4L4f_Q707xqJ_lkSH4_9E0TdIG06V8nbTA/viewform">Horario</a>
+                      <a class="dropdown-item" href="#impacto2">Impacto</a>
+                      <!-- <a class="dropdown-item" href="#equipo">Equipo</a> -->
+                      <!-- <div class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Something else here</a> -->
+                    </div>
                   </li>
                     
 <!--                   <li class="nav-item">
@@ -582,7 +610,45 @@
                 </div>
             </div>
             <!--     *********     END FEATURES 1     *********      -->
-
+ <!--     *********     FEATURES 1 (IMPACTO)    *********      -->            
+ <div class="features-1" id="impacto2">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8 ml-auto mr-auto">
+                <h2 class="title"><i class="fa fa-lightbulb-o" aria-hidden="true"></i> Add text here</h2>
+           </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="info info-hover">
+                    <div class="icon icon-primary">
+                        <i class="fa fa-users"></i>
+                    </div>
+                    <h4 class="info-title">Entrenar 100,000 ingenieras</h4>
+                    <p class="description">hispanas en software para 2025.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info info-hover">
+                    <div class="icon icon-success">
+                        <i class="now-ui-icons loader_refresh"></i>
+                    </div>
+                    <h4 class="info-title">Cambiar el paradigma</h4>
+                    <p class="description">en áreas y carreras STEM</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="info info-hover">
+                    <div class="icon icon-warning">
+                        <i class="now-ui-icons objects_spaceship"></i>
+                    </div>
+                    <h4 class="info-title">Independencia</h4>
+                    <p class="description">Catalizar la independencia financiera de la mujer</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
 
            <!--     *********     FEATURES (DESIGN PATTERNS)      *********      -->
 <!--             <div class="features-1" id="designPatterns">
@@ -1339,7 +1405,6 @@
                                 </div>
                               </div>
                             </div>
-
                           
                               <div class="column">
                                 <div class="card">
@@ -3452,8 +3517,8 @@ Me considero una aprendiz permanente, pues disfruto  aprender y experimentar el 
 
 <!--   Core JS Files   -->
 <script src="./assets/js/core/jquery.3.2.1.min.js" type="text/javascript"></script>
-<script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
-<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script>
+<!-- <script src="./assets/js/core/popper.min.js" type="text/javascript"></script>
+<script src="./assets/js/core/bootstrap.min.js" type="text/javascript"></script> -->
 <script src="./assets/js/plugins/moment.min.js"></script>
 <!--  Plugin for Switches, full documentation here: http://www.jque.re/plugins/version3/bootstrap.switch/ -->
 <script src="./assets/js/plugins/bootstrap-switch.js"></script>
@@ -3474,6 +3539,11 @@ Me considero una aprendiz permanente, pues disfruto  aprender y experimentar el 
 <script src="https://cdnjs.cloudflare.com/ajax/libs/fancybox/3.1.20/jquery.fancybox.min.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/superagent/3.8.2/superagent.min.js"></script>
 <script src="./assets/js/video.js"></script>
+<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+
+
 
 <script type="text/javascript">
     $(document).ready(function() {
