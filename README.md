@@ -1,2 +1,5 @@
 # beautifulpatterns
-Beautiful Patterns website
+
+Sitio web oficial de Patrones Hermosos
+https://beautifulpatterns.org
+www.patroneshermosos.com
