@@ -27,6 +27,7 @@ nav a:hover{text-decoration:underline}
 .hero,.split{display:grid;grid-template-columns:1.12fr .88fr;gap:clamp(1.5rem,6vw,5rem);align-items:center}
 .hero,.subhero{padding-block:clamp(3.5rem,9vw,7rem)}
 .subhero h1{font-size:clamp(2.9rem,6vw,5.4rem);max-width:16ch}
+h1.long-title{font-size:clamp(2.4rem,5vw,4.8rem);max-width:18ch}
 .hero em{color:var(--coral);font-style:normal}
 .label{color:#654498;text-transform:uppercase;letter-spacing:.1em;font-size:.75rem;font-weight:700;margin:0 0 1rem}
 .intro{font-size:clamp(1rem,1.6vw,1.24rem)}
