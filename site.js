@@ -50,6 +50,8 @@ async function showBootcamps() {
         continue;
       }
       link.href = registration;
+      link.target = '_blank';
+      link.rel = 'noopener';
       const action = 'Inscríbete';
       link.textContent = action + ' ↗';
       link.setAttribute('aria-label', action + ' · Bootcamp de ' + edition.ciudad);
@@ -188,7 +190,11 @@ async function showActivityList() {
         control.className = 'button contest-action';
         control.textContent = label;
         control.setAttribute('aria-label', label + ' · ' + activity.titulo);
-        if (enabled) control.href = externalUrl(url);
+        if (enabled) {
+          control.href = externalUrl(url);
+          control.target = '_blank';
+          control.rel = 'noopener';
+        }
         else {
           control.type = 'button';
           control.disabled = true;
@@ -255,6 +261,8 @@ async function showSocialLinks() {
         if (!url) return;
         const link = document.createElement('a');
         link.href = url;
+        link.target = '_blank';
+        link.rel = 'noopener';
         link.append(...placeholder.childNodes);
         placeholder.replaceWith(link);
       });
