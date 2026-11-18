@@ -1,0 +1,42 @@
+{
+  "stickers": {
+    "estado": "preparacion",
+    "formularioUrl": null,
+    "titulo": "Diseña los próximos stickers",
+    "descripcion": "Crea un sticker inspirado en Patrones Hermosos. Los diseños seleccionados podrán formar parte de la colección oficial de próximas ediciones. ¡Colecciónalos todos!",
+    "activacion": "siempre",
+    "imagen": "assets/coleccion-stickers.webp",
+    "imagenAlt": "Colección de stickers de tecnología, creatividad y comunidad",
+    "descargaUrl": "assets/coleccion-stickers.webp",
+    "descargaTexto": "Descargar la lámina de inspiración",
+    "cierreParticipacion": null,
+    "votacionUrl": null,
+    "cierreVotacion": null
+  },
+  "historias": {
+    "estado": "preparacion",
+    "formularioUrl": null,
+    "cierreParticipacion": null,
+    "votacionUrl": null,
+    "cierreVotacion": null
+  },
+  "sedes": {
+    "estado": "preparacion",
+    "formularioUrl": null,
+    "cierreParticipacion": null,
+    "votacionUrl": null,
+    "cierreVotacion": null
+  },
+  "dibujo": {
+    "titulo": "Dibuja tu experiencia",
+    "descripcion": "¿Estás viviendo un bootcamp? Dibuja tu momento favorito, algo que descubriste o una idea que quieras compartir con tus compañeras.",
+    "estado": "preparacion",
+    "formularioUrl": null,
+    "activacion": "bootcamp_abierto",
+    "imagen": "assets/crea-tu-historia.webp",
+    "imagenAlt": "Libros tridimensionales del universo visual de Patrones Hermosos",
+    "cierreParticipacion": null,
+    "votacionUrl": null,
+    "cierreVotacion": null
+  }
+}
