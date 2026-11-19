@@ -6,17 +6,25 @@ La versión anterior del sitio se conserva en la branch `previous-site`.
 
 ## Publicar una inscripción
 
-Añade un objeto al arreglo de `bootcamps.json` con estos campos:
+Una sede se publica solo después de llenar el formulario de registro de sede y de la revisión de BP. Añade un objeto al arreglo de `bootcamps.json` con estos campos. Si un dato todavía no se conoce, usa `null` y no se muestra.
 
 | Campo | Contenido |
 | --- | --- |
 | `pais` | Nombre del país |
 | `emoji` | Bandera |
 | `ciudad` | Ciudad sede |
-| `anfitrion` | Nombre de la organización anfitriona |
+| `anfitrion` | Nombre de la universidad sede |
+| `campus` | Campus (opcional); se muestra como «Campus …» bajo la universidad |
 | `fechas` | Rango de fechas para mostrar, incluido el año |
-| `estado` | `abierto` para mostrar la fila; usa `cerrado` al terminar el registro |
-| `inscripcionUrl` | Enlace HTTPS al formulario oficial |
+| `horario` | Horario (por ejemplo «9:00 a 15:00 h»); se muestra bajo las fechas |
+| `idioma` | `Español`, `Inglés` o `Bilingüe` |
+| `edades` | Rango de edades (por ejemplo «13 a 17 años») |
+| `estado` | `proximamente` muestra la sede sin enlace; `abierto` muestra el botón de inscripción; `cerrado` la oculta |
+| `inscripcionUrl` | Enlace HTTPS al formulario oficial de la sede |
+| `cierreInscripcion` | Fecha de cierre en formato `AAAA-MM-DD` |
+| `contactoDudas` | Correo de la sede para dudas (nunca el de una persona sin su permiso) |
+
+Cada sede muestra siempre la etiqueta «Gratuito»: el bootcamp no tiene costo para las participantes.
 
 ## Abrir una convocatoria
 

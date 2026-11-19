@@ -4,17 +4,29 @@
     "emoji": "🇲🇽",
     "ciudad": "Ciudad de México",
     "anfitrion": "Universidad Panamericana",
+    "campus": null,
     "fechas": "2027 · fechas por confirmar",
+    "horario": null,
+    "idioma": null,
+    "edades": "13 a 17 años",
     "estado": "proximamente",
-    "inscripcionUrl": null
+    "inscripcionUrl": null,
+    "cierreInscripcion": null,
+    "contactoDudas": null
   },
   {
     "pais": "México",
     "emoji": "🇲🇽",
     "ciudad": "Aguascalientes",
     "anfitrion": "Universidad Panamericana",
+    "campus": null,
     "fechas": "11 al 16 de enero de 2027",
+    "horario": null,
+    "idioma": null,
+    "edades": "13 a 17 años",
     "estado": "proximamente",
-    "inscripcionUrl": null
+    "inscripcionUrl": null,
+    "cierreInscripcion": null,
+    "contactoDudas": null
   }
 ]
