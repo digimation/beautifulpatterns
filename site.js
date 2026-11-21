@@ -38,7 +38,7 @@ function editionDetails(edition) {
   row.className = 'edition-details';
   const cell = row.insertCell();
   cell.colSpan = 5;
-  const items = ['Gratuito'];
+  const items = [];
   if (edition.edades) items.push(edition.edades);
   if (edition.idioma) items.push(IDIOMAS[edition.idioma] || edition.idioma);
   const closes = formatDate(edition.cierreInscripcion);
@@ -59,7 +59,7 @@ function editionDetails(edition) {
     chip.append('Dudas: ', link);
     cell.append(chip);
   }
-  return row;
+  return cell.childNodes.length ? row : document.createDocumentFragment();
 }
 
 async function showBootcamps() {
