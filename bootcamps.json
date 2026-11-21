@@ -4,17 +4,29 @@
     "emoji": "🇲🇽",
     "ciudad": "Ciudad de México",
     "anfitrion": "Universidad Panamericana",
-    "fechas": "2027 · fechas por confirmar",
-    "estado": "proximamente",
-    "inscripcionUrl": null
+    "campus": "Ciudad de México",
+    "fechas": "11 al 22 de enero de 2027",
+    "horario": "16:30 a 19:00 h",
+    "idioma": "Inglés",
+    "edades": "13 a 17 años",
+    "estado": "abierto",
+    "inscripcionUrl": "https://forms.gle/HUy2sXMCEB7phkkb7",
+    "cierreInscripcion": "2027-01-08",
+    "contactoDudas": "dgarduno@up.edu.mx"
   },
   {
     "pais": "México",
     "emoji": "🇲🇽",
     "ciudad": "Aguascalientes",
     "anfitrion": "Universidad Panamericana",
+    "campus": null,
     "fechas": "11 al 16 de enero de 2027",
+    "horario": null,
+    "idioma": null,
+    "edades": "13 a 17 años",
     "estado": "proximamente",
-    "inscripcionUrl": null
+    "inscripcionUrl": null,
+    "cierreInscripcion": null,
+    "contactoDudas": null
   }
 ]

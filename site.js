@@ -20,6 +20,48 @@ function externalUrl(value) {
   }
 }
 
+const IDIOMAS = { es: 'Español', en: 'Inglés', bilingue: 'Bilingüe' };
+
+function formatDate(value) {
+  const match = /^(\d{4})-(\d{2})-(\d{2})$/.exec(value || '');
+  if (!match) return null;
+  const date = new Date(Date.UTC(+match[1], match[2] - 1, +match[3]));
+  return date.toLocaleDateString('es-MX', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'UTC' });
+}
+
+function contactEmail(value) {
+  return typeof value === 'string' && /^[^\s@<>]+@[^\s@<>]+\.[^\s@<>]+$/.test(value) ? value : null;
+}
+
+function editionDetails(edition) {
+  const row = document.createElement('tr');
+  row.className = 'edition-details';
+  const cell = row.insertCell();
+  cell.colSpan = 5;
+  const items = ['Gratuito'];
+  if (edition.edades) items.push(edition.edades);
+  if (edition.idioma) items.push(IDIOMAS[edition.idioma] || edition.idioma);
+  const closes = formatDate(edition.cierreInscripcion);
+  if (closes) items.push('Inscripciones hasta el ' + closes);
+  for (const text of items) {
+    const chip = document.createElement('span');
+    chip.className = 'detail-chip';
+    chip.textContent = text;
+    cell.append(chip);
+  }
+  const email = contactEmail(edition.contactoDudas);
+  if (email) {
+    const chip = document.createElement('span');
+    chip.className = 'detail-chip';
+    const link = document.createElement('a');
+    link.href = 'mailto:' + email;
+    link.textContent = email;
+    chip.append('Dudas: ', link);
+    cell.append(chip);
+  }
+  return row;
+}
+
 async function showBootcamps() {
   const status = document.querySelector('#bootcamp-status');
   if (!status) return;
@@ -35,10 +77,22 @@ async function showBootcamps() {
     const tbody = document.querySelector('.schedule tbody');
     for (const edition of open) {
       const row = tbody.insertRow();
-      for (const value of [
-        [edition.emoji, edition.pais].filter(Boolean).join(' '),
-        edition.ciudad, edition.anfitrion, edition.fechas
-      ]) row.insertCell().textContent = value;
+      for (const [value, extra] of [
+        [[edition.emoji, edition.pais].filter(Boolean).join(' ')],
+        [edition.ciudad],
+        [edition.anfitrion, edition.campus && 'Campus ' + edition.campus],
+        [edition.fechas, edition.horario]
+      ]) {
+        const cell = row.insertCell();
+        cell.textContent = value || '';
+        if (extra) {
+          const note = document.createElement('small');
+          note.className = 'cell-note';
+          note.textContent = extra;
+          cell.append(document.createElement('br'), note);
+        }
+      }
+      tbody.append(editionDetails(edition));
       const link = document.createElement('a');
       link.className = 'button';
       const registration = externalUrl(edition.inscripcionUrl);
