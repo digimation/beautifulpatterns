@@ -6,7 +6,7 @@ La versión anterior del sitio se conserva en la branch `previous-site`.
 
 ## Publicar una inscripción
 
-Una sede se publica solo después de llenar el formulario de registro de sede y de la revisión de BP. Añade un objeto al arreglo de `bootcamps.json` con estos campos. Si un dato todavía no se conoce, usa `null` y no se muestra.
+Añade un objeto al arreglo de `bootcamps.json` con estos campos. Si un dato todavía no se conoce, usa `null` y no se muestra.
 
 | Campo | Contenido |
 | --- | --- |
@@ -22,16 +22,13 @@ Una sede se publica solo después de llenar el formulario de registro de sede y 
 | `estado` | `proximamente` muestra la sede sin enlace; `abierto` muestra el botón de inscripción; `cerrado` la oculta |
 | `inscripcionUrl` | Enlace HTTPS al formulario oficial de la sede |
 | `cierreInscripcion` | Fecha de cierre en formato `AAAA-MM-DD` |
-| `contactoDudas` | Correo de la sede para dudas (nunca el de una persona sin su permiso) |
-
-Cada sede muestra siempre la etiqueta «Gratuito»: el bootcamp no tiene costo para las participantes.
+| `contactoDudas` | Correo de contacto para dudas |
 
 ## Abrir una convocatoria
 
 En `convocatorias.json`, cambia el estado de `stickers`, `historias` o `sedes` a `abierto` y añade su `formularioUrl` HTTPS. El formulario enlazado gestiona las bases, los datos y los archivos de participación.
 
-Si falta el enlace de una edición, la fila muestra «Inscripciones próximamente». El sitio no publica un correo de contacto: el contacto va por formularios y por el Linktree de `redes.json`.
-El brandbook V5 no se publica en este repo (todo lo que está aquí es público).
+Si falta el enlace de una edición, la fila muestra «Inscripciones próximamente».
 
 ## Layout y componentes
 

@@ -155,4 +155,3 @@ html{scroll-padding-top:7.5rem}
 tr:has(+ .edition-details) td{border-bottom:0}
 .edition-details td{padding-top:0}
 .detail-chip{display:inline-block;margin:0 .4rem .3rem 0;padding:.2rem .6rem;border-radius:999px;background:#eaf6f2;color:#22604f;font-size:.85rem}
-.detail-chip:first-child{background:#fdf1c8;color:#6b5200;font-weight:700}
